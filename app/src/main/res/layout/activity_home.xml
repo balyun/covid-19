@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#455698"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/logo"
+        android:src="@drawable/covid19"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:id="@+id/penjelasan"
+        android:src="@drawable/penjelasan"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="125dp"/>
+
+    <ImageView
+        android:layout_width="325dp"
+        android:layout_height="400dp"
+        android:src="@drawable/orang"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="275dp"/>
+
+    <Button
+        android:id="@+id/bt1"
+        android:textColor="#ffffff"
+        android:text="ketuk untuk mengetahui"
+        android:background="#4A8BC4"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="580dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"/>
+</RelativeLayout>

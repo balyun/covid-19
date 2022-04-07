@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#455698"
+    tools:context=".DashboardActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logocorona"/>
+
+    <Button
+        android:textColor="#ffffff"
+        android:id="@+id/btn1"
+        android:background="#799ED2"
+        android:text="info covid-19"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="275dp"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:textColor="#ffffff"
+        android:id="@+id/btn2"
+        android:text="gejala covid-19"
+        android:background="#799ED2"
+        android:layout_below="@id/btn1"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="275dp"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#799ED2"
+        android:text="cara melindungi diri"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:textColor="#ffffff"
+        android:id="@+id/btn4"
+        android:text="cara pencegahan"
+        android:background="#799ED2"
+        android:layout_below="@id/btn3"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="275dp"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:textColor="#ffffff"
+        android:id="@+id/btn5"
+        android:text="penggunaan hand sanitizer"
+        android:background="#799ED2"
+        android:layout_below="@id/btn4"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="275dp"
+        android:layout_height="50dp"/>
+
+    <ImageView
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="375dp"
+        android:layout_height="300dp"
+        android:src="@drawable/geng"/>
+</RelativeLayout>
